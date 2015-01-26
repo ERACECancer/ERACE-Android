@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/gray" android:state_pressed="true"/>
+    <item android:drawable="@color/ltgray"/>
+</selector><!-- From: file:/home/sdavis2/cs97/cs97_project/ERACECancer/app/src/main/res/drawable-mdpi/button_selector.xml -->

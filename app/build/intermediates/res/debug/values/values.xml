@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/sdavis2/cs97/cs97_project/ERACECancer/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="gray" type="color">#FF888888</color>
+    <color name="ltgray" type="color">#FFCCCCCC</color>
+    <!-- From: file:/home/sdavis2/cs97/cs97_project/ERACECancer/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/sdavis2/cs97/cs97_project/ERACECancer/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="HPV_vaccine">HPV vaccination</string>
+    <string name="action_settings">Settings</string>
+    <string name="africanamerican">African American</string>
+    <string name="ageQ">What is your age?</string>
+    <string name="agehint">Enter age:</string>
+    <string name="agree">Agree</string>
+    <string name="answer_q_toast">This question is required</string>
+    <string name="app_name">ERACE Cancer</string>
+    <string name="asianindian">Asian Indian</string>
+    <string name="bachelors">Bachelor\'s Degree</string>
+    <string name="breastQ">When was your last self breast exam?</string>
+    <string name="breast_1_year">Annual clinical breast exam</string>
+    <string name="breast_3_year">Clinical breast exam every 3 years</string>
+    <string name="breast_self">Monthly self breast exam</string>
+    <string name="cancerchanceQ">Who does, and does not, develop cancer is a matter of chance, and so there is nothing people can do to avoid it.</string>
+    <string name="cancerchangesQ">Some people can make changes in the way they live to reduce their risk of developing cancer.</string>
+    <string name="caucasian">Caucasian</string>
+    <string name="chinese">Chinese</string>
+    <string name="colorectal">Colorectal screening</string>
+    <string name="colorectalQ">When was your last colorectal cancer screening?</string>
+    <string name="disagree">Disagree</string>
+    <string name="doctoral">Doctoral Degree (PhD, MD, JD, etc)</string>
+    <string name="educationQ">What is the highest level of education you have completed?</string>
+    <string name="english">English</string>
+    <string name="ethnicityQ">Which ethnicity do you most identify with?</string>
+    <string name="female">Female</string>
+    <string name="filipino">Filipino</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="highs">High School or Less</string>
+    <string name="hispanic">Hispanic</string>
+    <string name="home">Home</string>
+    <string name="hpv_5_year">HPV test every 5 years</string>
+    <string name="japanese">Japanese</string>
+    <string name="lung_screen">Lung screening</string>
+    <string name="male">Male</string>
+    <string name="mammogram">Annual mammogram</string>
+    <string name="mammogramQ">When was your last mammogram?</string>
+    <string name="masters">Master\'s Degree</string>
+    <string name="medinsuranceQ">Do you have medical insurance?</string>
+    <string name="neutral">Neutral</string>
+    <string name="never">Never</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="no_screenings">You do not currently have any suggested screenings.</string>
+    <string name="noshare">Don\'t wish to share and understand..</string>
+    <string name="oral_screen">Consider an oral screening</string>
+    <string name="other">Other:</string>
+    <string name="pacificislander">Pacific Islander</string>
+    <string name="papQ">When was your last pap test?</string>
+    <string name="pap_3_year">Pap test every 3 years</string>
+    <string name="pap_5_year">Pap test every 5 years</string>
+    <string name="pnta">Prefer Not to Answer</string>
+    <string name="prostate">Talk to your doctor about prostate screenings</string>
+    <string name="sexQ">What is your biological sex?</string>
+    <string name="smoking_q">Are you a smoker, or have a 30 year smoking history?</string>
+    <string name="somecollege">Some College</string>
+    <string name="spanish">Espanol</string>
+    <string name="stronglyagree">Strongly Agree</string>
+    <string name="stronglydisagree">Strongly Disagree</string>
+    <string name="suggestions_title">Suggested Preventative Screenings</string>
+    <string name="tabaco_alcohol_q">Do you have a history of tobacco and/or alcohol use? </string>
+    <string name="unsure">Unsure</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="view_list_button">View Suggested Screenings List</string>
+    <string name="view_survey_button">Edit Survey</string>
+    <string name="why">Why this is requested</string>
+    <string name="yes">Yes</string>
+    <string name="zipcodeQ">What zipcode do you live in?</string>
+    <string name="zipcodehint">Enter Zipcode:</string>
+    <!-- From: file:/home/sdavis2/cs97/cs97_project/ERACECancer/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

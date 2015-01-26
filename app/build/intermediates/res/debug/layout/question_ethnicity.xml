@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:text="@string/ethnicityQ" />
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ebutton_1"
+            android:textSize="20dp"
+            android:text = "@string/caucasian"/>
+
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ebutton_2"
+            android:textSize="20dp"
+            android:text = "@string/asianindian"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ebutton_3"
+            android:textSize="20dp"
+            android:text = "@string/pacificislander"/>
+
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ebutton_4"
+            android:textSize="20dp"
+            android:text = "@string/hispanic"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ebutton_5"
+            android:textSize="20dp"
+            android:text = "@string/vietnamese"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ebutton_6"
+            android:textSize="20dp"
+            android:text = "@string/chinese"/>
+
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ebutton_7"
+            android:textSize="20dp"
+            android:text = "@string/africanamerican"/>
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ebutton_8"
+            android:textSize="20dp"
+            android:text = "@string/filipino"/>
+
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ebutton_9"
+            android:textSize="20dp"
+            android:text = "@string/japanese"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="12dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/eNext"
+            android:text="@string/next"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/eHome"
+            android:text="@string/home"/>
+        </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/sdavis2/cs97/cs97_project/ERACECancer/app/src/main/res/layout/question_ethnicity.xml -->
