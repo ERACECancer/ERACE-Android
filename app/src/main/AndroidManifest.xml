@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.swarthmore.cs.lab3.eracecancer" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MySurvey"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AgeQuestion"
+            android:label="@string/app_name" ></activity>
+        <activity
+            android:name=".datequestions"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".ethnicityquestion"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".fivequestions"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".sexquestion"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".SuggestionListActivity"
+            android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>
